@@ -1,9 +1,29 @@
+[![CI][action-shield]][action-link]
+[![Contributing][contributing-shield]][contributing-link]
+[![Code of Conduct][conduct-shield]][conduct-link]
+[![Zulip][zulip-shield]][zulip-link]
+
+[action-shield]: https://github.com/coq-community/vsc-conceal/actions/workflows/ci.yml/badge.svg?branch=main
+[action-link]: https://github.com/coq-community/vsc-conceal/actions?query=workflow:ci
+
+[contributing-shield]: https://img.shields.io/badge/contributions-welcome-%23f7931e.svg
+[contributing-link]: https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md
+
+[conduct-shield]: https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-%23f15a24.svg
+[conduct-link]: https://github.com/coq-community/manifesto/blob/master/CODE_OF_CONDUCT.md
+
+[zulip-shield]: https://img.shields.io/badge/chat-on%20zulip-%23c1272d.svg
+[zulip-link]: https://coq.zulipchat.com/#narrow/stream/237662-VsCoq-devs.20.26.20users
+
 # Conceal for VSCode
 
 Conceal makes *visual* substitutions to your source code, e.g. displaying `fun` as `λ`, while never touching your code.
 
-This feature is inspired by [prettify-symbols-mode for Emacs](https://www.emacswiki.org/emacs/PrettySymbol) and is the unofficial successor of [vsc-prettify-symbols-mode](https://github.com/siegebell/vsc-prettify-symbols-mode).
+This feature is inspired by [prettify-symbols-mode for Emacs](https://www.emacswiki.org/emacs/PrettySymbol) and is the unofficial successor of [vsc-prettify-symbols-mode](https://github.com/siegebell/vsc-prettify-symbols-mode). 
 
+This extension is currently developed and maintained as part of
+[Romain Tetley](https://github.com/rtetley),
+and contributors.
 
 ## Configuration
 
