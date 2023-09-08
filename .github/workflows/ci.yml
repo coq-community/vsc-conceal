@@ -3,6 +3,8 @@ on:
     branches: [ master ]
     tags:
       - "v*.*.*"
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   build-extension:
@@ -32,6 +34,6 @@ jobs:
       with:
         node-version: 16.x
     - run:
-        yarn install && yarn run test
+        yarn install && xvfb-run yarn test
 
     
